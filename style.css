@@ -1,0 +1,344 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: none;
+    
+}
+
+body {
+    background-color: #1A1C19;
+    margin: 8px;
+    
+}
+
+nav>div {
+    Display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    /* border-radius: ; */
+}
+
+nav {
+    border: 1px solid wheat;
+    border-radius: 30px;
+}
+
+.nav-button {
+    background: #1A1C19;
+    color: #E0D6C2;
+    border: 1px solid #E0D6C2;
+    margin: 1px 0px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 800;
+    transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+    background: #E0D6C2;
+    color: black;
+}
+
+#nav-1 {
+
+    background: #333124;
+    border: 1px solid #333124;
+    padding: 14px 144px;
+    margin: 1px 0px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #E0D6C2;
+}
+
+@media screen and (max-width: 1070px) {
+
+    #nav-1 {
+        padding: 14px 46px;
+    }
+
+}
+
+#nav-2 {
+    padding: 14px 46px;
+}
+
+#nav-3 {
+    padding: 14px 46px;
+}
+
+#nav-4 {
+    padding: 14px 40px
+}
+
+#nav-5 {
+    padding: 14px 46px;
+}
+
+/*///////////////////////////////////////////////////////// Nav Bar Done /////////////////////////////////////*/
+
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.sec-1 {
+    width: 32%;
+    height: 100%;
+    background: #DFD6C5;
+    border-radius: 30px;
+    margin: 12px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 17px;
+    overflow: hidden;
+    /* border: 2px solid red;; */
+}
+
+.sec-1>section {
+    /* border: 2px solid blue; */
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 11px;
+    overflow: hidden;
+}
+
+.sec-1>section>div>h2 {
+    font-size: 34px;
+    font-weight: bold;
+    color: #342415;
+    overflow: hidden;
+}
+
+.sec-1>div>img {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.sec-2 {
+    width: 68%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.sec-2-1{
+    
+    background: #8F8868;
+    border-radius: 30px;
+    margin: 12px 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 17px;
+    overflow: hidden;
+}
+
+.sec-2> .sec-2-1 > div {
+    width: 100%;
+    padding: 14px;
+    overflow: hidden;
+}
+
+.sec-2> .sec-2-1 > div> img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.sec-2> .sec-2-1 > section {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.sec-2> .sec-2-1 > section>div>h2 {
+    font-size: 34px;
+    font-weight: bold;
+    color: #342415;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.sec-2> .sec-2-1 > section>div>h5 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #333333;
+    overflow: hidden;
+}
+
+.get-1{ 
+    padding: 10px;
+    margin: 0px;
+    padding-left: 1px;
+    padding-right: 1px ;
+    padding-top: 44px;
+    background: #DFD6C5;
+    border: none;
+    font-size: large;
+    overflow: hidden;
+}
+
+.get-2{
+    padding-top: 40px;
+    background: #8F8868;
+    border: none;
+    font-size: large;
+    overflow: hidden;
+}
+
+.sec-2-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 14px;
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+.sec-3{
+    width: 49.3%;
+    background-color: #976C55;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.sec-3 > div > img{
+    width: 100%;
+    overflow: hidden;
+    
+}
+.img-div{
+    padding: 12px;
+    overflow: hidden;
+}
+.sec-3 > span{
+    padding: 20px;
+    padding-bottom: 0px;
+    font-size: 56px;
+    font-weight: 700;
+    color: #342415;
+    flex: none;
+    overflow: hidden;
+}
+.red-c{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.circle-1{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    background-color: #342415;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.text{
+    color:#342415;
+    padding: 0px 20px;
+    overflow: hidden;
+}
+
+.get-3{
+    background: #976C55;
+    border: none;
+    padding: 22px;
+    font-size: large;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+
+.sec-4{
+    width: 49.3%;
+    background-color: #B5A38C;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.pic{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+    overflow: hidden;
+}
+
+.blue-c{
+    padding: 20px;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #342415;
+    flex: none;
+    overflow: hidden;
+}
+
+.get-4{
+    background: #B5A38C;
+    border: none;
+    padding: 22px;
+    padding-top: 58px;
+    font-size: large;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.sec-pic{
+    overflow: hidden;
+}
+
+ .pic-zoom{
+    width: 100%;
+}
+
+#con {
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+
+#con .pic-zoom:hover{
+    transition:  ease 0.6s;
+    transform: scale(1.1);
+}
+
+.o1{
+    overflow: hidden;
+    border-radius: 30px;
+}
+.o2{
+    overflow: hidden;
+    border-radius: 25px;
+}
+.o3{
+    border-radius: 100%;
+    overflow: hidden;
+}
+@media(max-width:740px){
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .sec-1{
+        width: auto;
+    }
+
+}
